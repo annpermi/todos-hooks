@@ -5,6 +5,7 @@ import './App.css';
 function Todo({index, todo}){
   return (
     <div className='todo'>{todo.text}</div>
+    
   )
 }
 
